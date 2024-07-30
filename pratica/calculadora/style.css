@@ -49,7 +49,11 @@
     font-size: 2em;
     border: none;
     cursor: pointer;
-
+    transition: scale 1.5s ease;
+}
+ 
+.botao:hover {
+    background-color: rgb(219, 215, 215);
 }
 
 .operadores1 {
@@ -60,11 +64,18 @@
     background-color: var(--cor3);
     color: var(--cor5);
 }
+.operadores2:hover{
+    background-color: var(--cor5);
+    color: var(--cor3);
+}
 
 .numeros {
     background-color: var(--cor4);
     color: var(--cor5);
+}
 
+.numeros:hover {
+    background-color: var(--cor2);
 }
 
 .botao0 {
