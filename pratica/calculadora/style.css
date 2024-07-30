@@ -29,11 +29,11 @@
 
 .teclado {
     width: 75%;
-    height: 10%;
+    height: 60%;
     display: grid;
     grid-template-columns: 30% 30% 30% 30%;
     align-items: center;
-    padding: 10px 22px 22px 22px;
+    padding: 5px 22px 22px 25px;
 
 }
 
@@ -64,10 +64,11 @@
 .numeros {
     background-color: var(--cor4);
     color: var(--cor5);
+
 }
 
 .botao0 {
-    width: 170px;
+    width: 160px;
     border-radius: 135px;
     grid-column: span 2;
 }
