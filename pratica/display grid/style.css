@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: grid;
+    gap: 10px;
+    grid-template-rows: 100px;
+}
+
+header {
+    background-color: blueviolet;
+    align-self: end;
+}
+
+aside {
+    background-color: aqua;
+}
+
+article {
+    background-color: greenyellow;
+}
+
+section {
+    background-color: blue;
+}
+
+footer {
+    background-color: brown;
+}
+
